@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "261438408629",
+    "firebase_url": "https://parkingdemoapp-4f8fc.firebaseio.com",
+    "project_id": "parkingdemoapp-4f8fc",
+    "storage_bucket": "parkingdemoapp-4f8fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261438408629:android:108e352d25babb0b2fbbfc",
+        "android_client_info": {
+          "package_name": "com.bce.parkingdemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261438408629-j8phcjui82nr9ncu05e3fcv460q2udd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnC2E9hMNRyhfpaCW99d9elJmgSK5ilrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261438408629-j8phcjui82nr9ncu05e3fcv460q2udd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VehicleOwnerFounder</string>
+    <string name="search_manualy">Search Manualy</string>
+    <string name="search_using_camera">Search Using Camera</string>
+    <string name="please_register_before_searching_vehicle">Please Register before Searching Vehicle.</string>
+    <string name="owner_info_will_be_shown_here">Owner Info and Call Button will be Shown Here.</string>
+    <string name="call">CALL</string>
+    <string name="_1_take_nimage">1.TAKE \nIMAGE</string>
+    <string name="_2_vehicle_ninfo">2.VEHICLE \nINFO</string>
+</resources>

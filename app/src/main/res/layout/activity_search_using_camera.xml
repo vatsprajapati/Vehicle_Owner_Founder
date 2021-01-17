@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".SearchUsingCameraActivity">
+
+    <ImageView
+        android:id="@+id/capturedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/retrievedInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:text="@string/owner_info_will_be_shown_here"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/takeImageButton"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <Button
+        android:id="@+id/callOwnerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/getVehicleInfoButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/getVehicleInfoButton"
+        app:layout_constraintTop_toTopOf="@+id/getVehicleInfoButton" />
+
+    <Button
+        android:id="@+id/takeImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_take_nimage"
+        app:layout_constraintEnd_toStartOf="@+id/getVehicleInfoButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/capturedImageView" />
+
+    <Button
+        android:id="@+id/getVehicleInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2_vehicle_ninfo"
+        app:layout_constraintBottom_toBottomOf="@+id/takeImageButton"
+        app:layout_constraintEnd_toStartOf="@+id/callOwnerButton"
+        app:layout_constraintStart_toEndOf="@+id/takeImageButton"
+        app:layout_constraintTop_toTopOf="@+id/takeImageButton" />
+
+    <TextView
+        android:id="@+id/vehiclePlateDetectedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/retrievedInfoTextView"
+        app:layout_constraintStart_toStartOf="@+id/retrievedInfoTextView"
+        app:layout_constraintTop_toTopOf="@+id/retrievedInfoTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
